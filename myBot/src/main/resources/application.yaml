@@ -1,0 +1,10 @@
+app:
+  feign:
+    config:
+      name: currencyClient
+      url: 'https://api.binance.com/api/v3/ticker/bookTicker'
+
+spring:
+  application:
+    admin:
+      enabled: false

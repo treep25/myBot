@@ -8,3 +8,13 @@ spring:
   application:
     admin:
       enabled: false
+
+logging:
+  level:
+    org:
+      springframework:
+        web: trace
+      hibernate: error
+    com:
+      telegram:
+        myBot: debug
